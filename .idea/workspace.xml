@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca5b38d-f10c-42b7-9ff9-d9b93bc698b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StrategyPattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IteratorPattern.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Script" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -38,7 +39,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.IteratorPatternKt">
+    <configuration name="IteratorPatternKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="IteratorPatternKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrategyPatternKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="design-pattern-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -54,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.IteratorPatternKt" />
         <item itemvalue="Kotlin.StrategyPatternKt" />
       </list>
     </recent_temporary>
