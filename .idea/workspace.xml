@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca5b38d-f10c-42b7-9ff9-d9b93bc698b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdapterPatternByInheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPatternByInheritance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPattern.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,15 +39,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.AdapterPatternByInheritanceKt">
-    <configuration name="AdapterPatternByInheritanceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.AdapterPatternKt">
+    <configuration name="AdapterPatternKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="design-pattern-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AdapterPatternByInheritanceKt" />
+      <option name="MAIN_CLASS_NAME" value="AdapterPatternKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,7 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AdapterPatternByInheritanceKt" />
+        <item itemvalue="Kotlin.AdapterPatternKt" />
         <item itemvalue="Kotlin.IteratorPatternKt" />
         <item itemvalue="Kotlin.StrategyPatternKt" />
       </list>

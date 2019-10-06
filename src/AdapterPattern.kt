@@ -6,6 +6,10 @@ fun main () {
     val printBanner2 = PrintBannerAdapterByDelegation(string = "World")
     printBanner2.printStrong()
     printBanner2.printWeak()
+
+    val another = MoreStrongPrintBanner(printBanner)
+    another.printStrong()
+    another.printWeak()
 }
 
 //target object which client uses
@@ -28,7 +32,7 @@ open class Banner(private val string: String) {
 Adapter object that is the leading role.
 Inheritance version. This inherits Adaptee and call its method as target interface's method
  */
-class PrintBannerAdapter(private val string: String) : Banner(string), Print {
+class PrintBannerAdapter(val string: String) : Banner(string), Print {
     override fun printWeak() {
         showWithParen()
     }
@@ -55,5 +59,11 @@ class PrintBannerAdapterByDelegation(private val string: String) : Print2() {
 
     override fun printStrong() {
         banner.showWithAster()
+    }
+}
+
+class MoreStrongPrintBanner(private val anotherAdapter: PrintBannerAdapter) : Print by anotherAdapter {
+    override fun printStrong() {
+        println("********** ${anotherAdapter.string} **********")
     }
 }
