@@ -2,6 +2,10 @@ fun main () {
     val printBanner = PrintBannerAdapter(string = "Hello")
     printBanner.printStrong()
     printBanner.printWeak()
+
+    val printBanner2 = PrintBannerAdapterByDelegation(string = "World")
+    printBanner2.printStrong()
+    printBanner2.printWeak()
 }
 
 //target object which client uses
@@ -12,10 +16,10 @@ interface Print {
 
 //Adaptee class
 open class Banner(private val string: String) {
-    protected fun showWithParen() {
+    fun showWithParen() {
         println("( $string )")
     }
-    protected fun showWithAster() {
+    fun showWithAster() {
         println("* $string *")
     }
 }
@@ -30,5 +34,26 @@ class PrintBannerAdapter(private val string: String) : Banner(string), Print {
     }
     override fun printStrong() {
         showWithAster()
+    }
+}
+
+abstract class Print2 {
+    abstract fun printWeak()
+    abstract fun printStrong()
+}
+
+/*
+The following, delegation version
+Get adaptee as an argument and delegate to it
+ */
+class PrintBannerAdapterByDelegation(private val string: String) : Print2() {
+    private val banner: Banner = Banner(string)
+
+    override fun printWeak() {
+        banner.showWithParen()
+    }
+
+    override fun printStrong() {
+        banner.showWithAster()
     }
 }

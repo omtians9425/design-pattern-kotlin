@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ca5b38d-f10c-42b7-9ff9-d9b93bc698b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rskow.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AdapterPatternByInheritance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IteratorPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdapterPatternByInheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdapterPatternByInheritance.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
