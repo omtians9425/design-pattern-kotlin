@@ -51,7 +51,7 @@ class BookShelf : Aggregate {
 }
 
 //encapsulates concrete implementation for iteration inside.
-//in this case, the detail implementation is further encapsulated in the BookShelf object. (getBookAt and getLength)
+//in this case, the detail implementation is further encapsulated in the BookShelf object. (by getBookAt and getLength)
 class BookShelfIterator(private val bookShelf: BookShelf) : Iterator {
     private var index = 0
 
