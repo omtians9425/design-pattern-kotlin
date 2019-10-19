@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ca5b38d-f10c-42b7-9ff9-d9b93bc698b7" name="Default Changelist" comment="" />
+    <list default="true" id="2ca5b38d-f10c-42b7-9ff9-d9b93bc698b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/factorypattern/FactoryClient.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorypattern/idcard/IDCard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorypattern/idcard/IDCardFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/factorypattern/framework/Factory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/factorypattern/framework/Factory.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.AdapterPatternKt">
+  <component name="RunManager" selected="Kotlin.factorypattern.FactoryClientKt">
     <configuration name="AdapterPatternKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="design-pattern-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -78,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="factorypattern.FactoryClientKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="design-pattern-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="factorypattern.FactoryClientKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.factorypattern.FactoryClientKt" />
         <item itemvalue="Kotlin.AdapterPatternKt" />
         <item itemvalue="Kotlin.IteratorPatternKt" />
         <item itemvalue="Kotlin.StrategyPatternKt" />
