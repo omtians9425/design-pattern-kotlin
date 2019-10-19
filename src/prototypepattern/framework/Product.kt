@@ -3,7 +3,7 @@ package prototypepattern.framework
 /**
  * This is prototype
  */
-interface  Product {
+interface Product {
     fun use(s: String)
-    fun createClone(): Product
+    fun createClone(custom: Char? = null): Product
 }

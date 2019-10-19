@@ -5,16 +5,16 @@ import prototypepattern.framework.Product
 /**
  * Concrete Prototype
  */
-data class MessageBox(val decoChar: Char) : Product {
+data class MessageBox(val decoChar: Char, private val additionalDeco: Char = ' ') : Product {
     override fun use(s: String) {
         horizontalBorder(s)
         //body
-        println("$decoChar $s $decoChar")
+        println("$decoChar$additionalDeco$s$additionalDeco$decoChar")
         horizontalBorder(s)
     }
 
-    override fun createClone(): Product {
-        return copy()
+    override fun createClone(custom: Char?): Product {
+        return copy(additionalDeco = custom ?: additionalDeco)
     }
 
     //helper for drawing

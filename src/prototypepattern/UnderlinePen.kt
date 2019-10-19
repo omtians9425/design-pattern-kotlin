@@ -5,16 +5,15 @@ import prototypepattern.framework.Product
 /**
  * Concrete Prototype
  */
-data class UnderlinePen(private val ulChar: Char) : Product {
-
+data class UnderlinePen(private val ulChar: Char, private val additionalDeco: Char=' ') : Product {
     override fun use(s: String) {
-        println("\" $s \"")
+        println("\"$additionalDeco$s$additionalDeco\"")
         print(" ")
         horizontalBorder(s)
     }
 
-    override fun createClone(): Product {
-        return copy()
+    override fun createClone(custom: Char?): Product {
+        return copy(additionalDeco = custom ?: additionalDeco)
     }
 
     //helper
