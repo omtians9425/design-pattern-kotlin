@@ -23,7 +23,7 @@ abstract class Page(
                 write(makeHTML())
                 close()
             }
-            println("$filename を作成しました")
+            println("$filename is created.")
         } catch (e: IOException) {
             e.printStackTrace()
         }
