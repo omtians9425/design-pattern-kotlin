@@ -1,4 +1,4 @@
-package abstractfactorypattern
+package abstractfactorypattern.listfactory
 
 import abstractfactorypattern.factory.Link
 
