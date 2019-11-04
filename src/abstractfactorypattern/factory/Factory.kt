@@ -22,7 +22,7 @@ abstract class Factory {
     }
 
     /**
-     * Factory methods of Parts and Product.
+     * Factory methods of Parts and Product implemented by concrete factory.
      */
     abstract fun createLink(caption: String, url: String): Link
     abstract fun createTray(caption: String): Tray
