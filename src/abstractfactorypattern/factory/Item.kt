@@ -1,4 +1,4 @@
-package abstractfactorypattern
+package abstractfactorypattern.factory
 
 /**
  * Base parts class. This class is the part of multiple abstract parts class.

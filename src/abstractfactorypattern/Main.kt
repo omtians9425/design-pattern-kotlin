@@ -1,5 +1,7 @@
 package abstractfactorypattern
 
+import abstractfactorypattern.factory.Factory
+
 fun main(args: Array<String>) {
 
     //TODO specify class name

@@ -1,4 +1,4 @@
-package abstractfactorypattern
+package abstractfactorypattern.factory
 
 import java.lang.Exception
 

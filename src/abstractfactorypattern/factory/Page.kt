@@ -1,4 +1,4 @@
-package abstractfactorypattern
+package abstractfactorypattern.factory
 
 import java.io.FileWriter
 import java.io.IOException

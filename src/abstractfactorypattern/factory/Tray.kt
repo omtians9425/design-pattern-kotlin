@@ -1,4 +1,4 @@
-package abstractfactorypattern
+package abstractfactorypattern.factory
 
 /**
  * Abstract parts class.
