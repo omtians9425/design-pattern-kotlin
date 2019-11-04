@@ -10,7 +10,7 @@ abstract class Factory {
     companion object {
         fun getFactory(classname: String): Factory? {
             return try {
-                Class.forName(classname).kotlin.objectInstance as Factory
+                Class.forName(classname).kotlin.objectInstance as? Factory
             } catch (e: ClassNotFoundException) {
                 println("Class $classname is not found.")
                 null

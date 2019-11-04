@@ -1,11 +1,14 @@
 package abstractfactorypattern
 
 import abstractfactorypattern.factory.Factory
+import abstractfactorypattern.listfactory.ListFactory
 
 fun main(args: Array<String>) {
 
     //TODO specify class name
-    val factory: Factory = Factory.getFactory("") ?: return
+    val name = "abstractfactorypattern.listfactory.ListFactory"
+    println("name:$name")
+    val factory: Factory = Factory.getFactory(name) ?: return
 
     //define links
     val asahi = factory.createLink("Asahi Shimbun", "http://www.asahi.com/")
