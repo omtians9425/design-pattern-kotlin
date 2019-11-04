@@ -7,15 +7,17 @@ import java.lang.Exception
  */
 abstract class Factory {
 
-    fun getFactory(classname: String): Factory? {
-        return try {
-            Class.forName(classname).kotlin.objectInstance as Factory
-        } catch (e: ClassNotFoundException) {
-            println("Class $classname is not found.")
-            null
-        } catch (e: Exception) {
-            e.printStackTrace()
-            null
+    companion object {
+        fun getFactory(classname: String): Factory? {
+            return try {
+                Class.forName(classname).kotlin.objectInstance as Factory
+            } catch (e: ClassNotFoundException) {
+                println("Class $classname is not found.")
+                null
+            } catch (e: Exception) {
+                e.printStackTrace()
+                null
+            }
         }
     }
 
